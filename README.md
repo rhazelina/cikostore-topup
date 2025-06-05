@@ -28,7 +28,7 @@ GET /api/items
 
 | Parameter | Type     | Description                |
 | :-------- | :------- | :------------------------- |
-| `api_key` | `string` | **Required**. API key Anda |
+| `api_key` | `string` | **Required**. API key |
 
 ---
 
@@ -41,7 +41,7 @@ GET /api/items/{id}
 | Parameter | Type     | Description                       |
 | :-------- | :------- | :-------------------------------- |
 | `id`      | `string` | **Required**. ID item yang dicari |
-| `api_key` | `string` | **Required**. API key Anda        |
+| `api_key` | `string` | **Required**. API key        |
 
 ---
 
@@ -53,7 +53,7 @@ POST /api/transactions
 
 | Body Parameter | Type     | Description                       |
 | :------------- | :------- | :-------------------------------- |
-| `api_key`      | `string` | **Required**. API key Anda        |
+| `api_key`      | `string` | **Required**. API key        |
 | `item_id`      | `string` | **Required**. ID item yang dibeli |
 | `target`       | `string` | **Required**. Nomor/ID tujuan     |
 
@@ -68,7 +68,7 @@ GET /api/transactions/{transaction_id}
 | Parameter        | Type     | Description                |
 | :--------------- | :------- | :------------------------- |
 | `transaction_id` | `string` | **Required**. ID transaksi |
-| `api_key`        | `string` | **Required**. API key Anda |
+| `api_key`        | `string` | **Required**. API key  |
 
 ---
 
